@@ -1,0 +1,17 @@
+- name: Deploy Scotia App with Docker
+  hosts: all
+  become: true
+  tasks:
+    - name: Install Docker
+      apt:
+        name: docker.io
+        state: present
+
+    - name: Start Docker
+      service:
+        name: docker
+        state: started
+        enabled: true
+
+    - name: Run Docker Container
+      shell: docker run -d -p 8080:8080 raja1021/scotia-app:latest
