@@ -1,6 +1,6 @@
-# DevOps Project – Scotia Bank (CI/CD on Azure with AKS & OpenShift)
+# DevOps Project – Bank (CI/CD on Azure with AKS & OpenShift)
 
-This project reflects a real-world DevOps setup for Scotia Bank, focusing on secure, scalable deployments in Azure using AKS, OpenShift, and CI/CD via Azure DevOps Pipelines.
+This project reflects a real-world DevOps setup for a Bank, focusing on secure, scalable deployments in Azure using AKS, OpenShift, and CI/CD via Azure DevOps Pipelines.
 
 ## 🔧 Key Features
 
